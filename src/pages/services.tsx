@@ -4,25 +4,24 @@ import Card from '@mui/material/Card';
 
 const services = {
   haircuts: {
-    title: "Haircuts",
-    description: "Precision cuts with traditional techniques.",
+    title: "Cabelos",
+    description: "Cortes de precisão com técnicas tradicionais.",
     icon: Scissors,
+    price: "R$25",
   },
   beardTrimming: {
-    title: "Beard Trimming",
-    description: "Perfectly shaped beards and mustaches.",
+    title: "Barba",
+    description: "Barbas e bigodes perfeitamente modelados.",
     icon: Scissors,
+    price: "R$15",
   },
   styling: {
-    title: "Styling",
-    description: "Professional styling for any occasion.",
+    title: "Estilo",
+    description: "Estilismo profissional para qualquer ocasião.",
     icon: Star,
+    price: "",
   },
-  consultation: {
-    title: "Consultation",
-    description: "Personalized grooming advice.",
-    icon: Clock,
-  },
+ 
 };
 
 export default function Services() {
@@ -41,6 +40,7 @@ export default function Services() {
             </div>
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-gray-600">{service.description}</p>
+            {service.price && <span className="text-amber-600 font-semibold">{service.price}</span>}
           </Card>
         ))}
       </div>

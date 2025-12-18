@@ -1,4 +1,4 @@
-import Hero from "../pages/hero";
+import Hero from "../pages/Home";
 import Services from "../pages/services";
 import Contatos from "../pages/Contatos";
 

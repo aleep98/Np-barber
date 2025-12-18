@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white">
-              Agendar
+              <a href="https://wa.me/qr/B6WCGDMATG7CA1">Agendar</a>
             </Button>
             
           </div>

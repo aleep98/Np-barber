@@ -1,4 +1,4 @@
-import { Scissors, Star, Clock } from "lucide-react";
+import { Scissors, Star } from "lucide-react";
 import Card from '@mui/material/Card';
 
 

@@ -24,9 +24,7 @@ export default function Hero() {
             <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white">
               Agendar
             </Button>
-            {/* <Button size="lg" variant="outline" className="bg-white/10 text-white border-white hover:bg-white/20">
-              Nossos Serviços
-            </Button> */}
+            
           </div>
         </div>
       </div>

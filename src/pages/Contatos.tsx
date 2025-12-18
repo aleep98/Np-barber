@@ -22,7 +22,7 @@ export default function Contact() {
               
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-1" />
-                <span>Jose Carlos Tirolo, 190<br />Bocaina, São Paulo</span>
+                <span>Jose Carlos Tirolo: 190<br />Bocaina, São Paulo</span>
               </div>
             </div>
           </div>

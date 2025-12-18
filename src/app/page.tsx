@@ -1,5 +1,5 @@
 import Hero from "../pages/hero";
-import Services from "../pages/Services";
+import Services from "../pages/services";
 import Contatos from "../pages/Contatos";
 
 export default function Home() {

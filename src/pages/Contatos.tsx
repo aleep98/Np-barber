@@ -46,13 +46,13 @@ export default function Contact() {
               Agende sua consulta hoje mesmo e sinta a diferença.
             </p>
             <Button className="w-full bg-amber-600 hover:bg-amber-700">
-              Agendar Corte
+              <a href="https://wa.me/qr/B6WCGDMATG7CA1">Agendar</a>
             </Button>
           </div>
         </div>
 
         <div className="border-t border-neutral-800 pt-8 text-center text-neutral-500">
-          <p>&copy; 2025 Classic Cuts Barbershop. All rights reserved. @l.aleep</p>
+          <p>&copy; 2025 Classic Cuts Barbershop. All rights reserved. @devalien98</p>
         </div>
       </div>
     </footer>

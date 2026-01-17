@@ -1,25 +1,27 @@
-import { Scissors, Star } from "lucide-react";
+import { Eye, Scissors, Star } from "lucide-react";
 import Card from '@mui/material/Card';
+import {images} from "../constants/images";
+import { AppImage } from "@/_components/AppImage";
 
 
 const services = {
   haircuts: {
     title: "Cabelos",
     description: "Cortes de precisão com técnicas tradicionais.",
-    icon: Scissors,
+    image: images.cabelo,
     price: "R$25",
   },
   beardTrimming: {
     title: "Barba",
     description: "Barbas e bigodes perfeitamente modelados.",
-    icon: Scissors,
-    price: "R$15",
+    image: images.barba,
+    price: "R$10",
   },
   styling: {
-    title: "Estilo",
+    title: "Sobrancelha",
     description: "Estilismo profissional para qualquer ocasião.",
-    icon: Star,
-    price: "",
+    image: images.sobrancelha,
+    price: "R$5",
   },
  
 };
@@ -35,8 +37,8 @@ export default function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Object.entries(services).map(([key, service]) => (
           <Card key={key} className="p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <div className="flex items-center justify-center mb-4 w-12 h-12 rounded-full bg-amber-100 text-amber-600 mx-auto">
-              <service.icon className="w-6 h-6" />
+            <div className="flex items-center justify-center mb-4 w-12 h-12 rounded-full bg-gray-500 text-amber-600 mx-auto">
+              <AppImage  src={service.image} alt={service.title} width={24} height={24} />
             </div>
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-gray-600">{service.description}</p>

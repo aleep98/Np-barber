@@ -12,13 +12,13 @@ const services = {
     price: "R$25",
   },
   beardTrimming: {
-    title: "Barba",
+    title: "Barbas",
     description: "Barbas e bigodes perfeitamente modelados.",
     image: images.barba,
     price: "R$10",
   },
   styling: {
-    title: "Sobrancelha",
+    title: "Sobrancelhas",
     description: "Estilismo profissional para qualquer ocasião.",
     image: images.sobrancelha,
     price: "R$5",
